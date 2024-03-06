@@ -18,6 +18,8 @@ body {
     max-width: 90ch;
     margin: 0 auto;
     line-height: 1.5;
+    padding: 1em;
+    margin: 1em;
 }
 
 h1, h2, h3 {
@@ -29,17 +31,22 @@ h1 {
     font-size: 4em;
     font-weight: 900;
     text-shadow: 0.02em 0.04em #403D58;
-    color: #53fceb;
+    color: deeppink;
 }
 
 h2 {
+    font-weight: bold;
+    font-size: 1.6em;
     border-bottom: 0.1em solid #66D7D1;
-    padding: 0.25em;
+    padding: 0.75em;
     margin: 1.6em 0;
+    text-shadow: 0.02em 0.04em deeppink;
 }
 
 section p {
     text-indent: 2.8em;
+    line-height: 1.6em;
+    margin-bottom: 2em;
 }
 
 .project {
